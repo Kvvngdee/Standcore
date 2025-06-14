@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth transition-colors duration-500">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StandCore — Async Dev Stand-ups</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class'
+    }
+  </script>
+
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <link href="./styles.css" rel="stylesheet" />
+</head>
+<body class="bg-white dark:bg-gray-900 text-gray-900 dark:text-white font-sans">
+
+  <!-- Dark Mode Toggle -->
+  <div class="fixed top-4 right-4 z-50">
+    <button onclick="toggleDarkMode()" class="px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-md shadow">
+      Toggle Dark Mode
+    </button>
+  </div>
+
+  <!-- Hero -->
+  <section class="text-center py-20 px-6 bg-gray-100 dark:bg-gray-800" data-aos="fade-up">
+<h1 class="text-4xl font-bold">Build without bottleneck Using Standcore</h1>
+    <p class="mt-4 text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+    Standcore is async dev stand-up platform. It aligns with real-time,voice augmented meetings powered by AI
+  
+  </p>
+    <a href="#get-started" class="mt-8 inline-block px-6 py-3 bg-indigo-600 text-white rounded-lg shadow hover:bg-indigo-700 transition">
+      Get Started — It’s Free
+    </a>
+  </section>
+
+  <!-- Project Title -->
+  <section class="max-w-4xl mx-auto py-12 px-6" data-aos="fade-up">
+    <h2 class="text-2xl font-semibold text-center mb-4">
+      StandCore: The future of real-time developer stand-ups
+    </h2>
+    <p class="text-center text-gray-700 dark:text-gray-300 mb-4">
+      Traditional stand-ups are slow, repetitive, and disruptive especially for fast-moving, distributed teams. StandCore replaces daily meetings with asynchronous check-ins that are quick to log and powerful to track.
+    </p>
+    <p class="text-center text-gray-700 dark:text-gray-300 mb-4">
+      With smart summaries, blocker detection, and seamless integration with GitHub, Jira, and other tools, StandCore ensures every update is captured, every blocker surfaced, and no detail lost in the noise.
+    </p>
+    <p class="text-center text-gray-700 dark:text-gray-300">
+      Built for developers, not managers, StandCore gives your team the freedom to focus, communicate clearly, and stay aligned, no calls, no pings, just progress.
+    </p>
+  </section>
+
+  <!-- Features -->
+  <section class="bg-white dark:bg-gray-900 py-12 px-6" data-aos="fade-up" data-aos-delay="100">
+    <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
+      <div>
+        <h3 class="text-xl font-semibold mb-4">Built for Dev Teams</h3>
+        <ul class="space-y-3 text-gray-700 dark:text-gray-300">
+          <li>Voice or text stand-up entries with optional AI summarization</li>
+          <li>Sync with GitHub, Jira, and Linear</li>
+          <li>Customizable alerts for blockers and silence</li>
+          <li>Visual progress tracking</li>
+          <li>Works async across time zones</li>
+        </ul>
+      </div>
+      <div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section class="bg-gray-100 dark:bg-gray-800 py-12 px-6" data-aos="fade-up">
+    <div class="max-w-3xl mx-auto text-center">
+      <h3 class="text-2xl font-bold mb-4">About Me</h3>
+      <p class="text-gray-700 dark:text-gray-300">
+        I'm an IT support specialist, who is passionate about building clean, responsive, and scalable digital experiences. Skilled in HTML,CSS,PHP, and cloud technologies like AWS, linux, and cPanel/WHM, I'm the creator of StandCore. I hold a B.S.C in Human Resource Managment from the University of Cape Coast, Ghana. I'm currently pursuing a diploma degree in Cloud Engineering from AltSchool Africa. I bring both practical experience and deep technical skill.
+      </p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="get-started" class="bg-gray-900 text-white py-16 text-center" data-aos="zoom-in">
+    <h2 class="text-2xl font-bold">Ready to ditch your daily meeting?</h2>
+    <p class="mt-2 text-gray-300">Join StandCore Beta for free and transform how your team shares progress.</p>
+    <a href="#" class="mt-6 inline-block px-6 py-3 bg-indigo-600 rounded-lg shadow hover:bg-indigo-700 transition">
+      Apply for Beta Access
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 text-sm text-gray-500 dark:text-gray-400">
+    © 2025 StandCore — Built by Adeola Adewunmi.
+  </footer>
+
+  <!-- AOS Script -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+  <!-- Dark Mode Script -->
+  <script src="./scripts.js"></script>
+</body>
+</html>
+
